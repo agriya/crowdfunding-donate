@@ -1,0 +1,15 @@
+{
+	"name" : "Donate",
+	"description" : "By enabling this, the users can donate funds to projects (i.e., non refundable fund even if the project is not successful).",
+	"author" : "Agriya",
+	"authorEmail" : "info@agriya.com",
+	"authorUrl" : "http://www.agriya.com",
+	"settings" : "true",
+	"parent": "1.Modules.Children",
+	"subplugin" : "",
+	"icon" : "donate-s",
+	"disable" : 1,
+	"delete" : 1,
+	"module_id": "s178",
+	"module_hash": "7078e688f0e815ea37dd1ab3e883f370"
+}
