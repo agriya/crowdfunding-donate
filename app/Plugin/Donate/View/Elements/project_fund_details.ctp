@@ -80,7 +80,7 @@
 </li>
 <hr class="hr-2px-drk-gray marg-top-5 marg-btom-5">
 <?php } ?>
-<?php if (isPluginEnabled('Idea') && $project['Donate']['donate_project_status_id'] == ConstPledgeProjectStatus::OpenForIdea) :?>
+<?php if (isPluginEnabled('Idea') && $project['Donate']['donate_project_status_id'] == ConstDonateProjectStatus::OpenForIdea) :?>
 <li class="navbar-btn txt-center-mbl">
 	<h3 class="h1 list-group-item-text list-group-item-heading font-size-54 roboto-bold">
 		<span class="js-idea-vote-count-<?php echo $this->Html->cInt($project['Project']['id'], false); ?> vote-count-value">
